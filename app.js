@@ -3,7 +3,20 @@ var txtinput =document.querySelector("#txt-input")
 var outputDiv =document.querySelector("#output")
 
 function clickHandler() {
-    outputDiv.innerText = txtinput.value + " hahahaha";
+    outputDiv.innerText = txtinput.value + "=  hahahaha";
 
 };
 btntranslate.addEventListener("click",clickHandler)
+
+
+
+
+
+
+
+
+
+
+
+
+// https://eloquentjavascript.net/Eloquent_JavaScript.pdf
