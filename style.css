@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -7,7 +6,7 @@
 :root {
     --primary: #F2C94C;
     --black: #333333;
-    --width-break:600px
+    --width-break: 600px
 }
 
 body {
@@ -30,7 +29,7 @@ main {
 textarea {
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 90%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
@@ -40,19 +39,20 @@ textarea {
 button {
     background-color: var(--primary);
     border: none;
-    margin: 1rem 0rem;
+    margin: 1rem 1rem;
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: large;
 }
 
-
 #translate-output {
     box-sizing: border-box;
-    width: 100%;
-    min-height: 10vh;
-    max-height: 20vh;
-    overflow:scroll;
+    display: block;
+    width: 50%;
+    min-height: 20vh;
+    max-height: 10vh;
+    margin-top: 2rem;
+    overflow: scroll;
     border: 1px solid var(--black);
 }
 
@@ -63,9 +63,10 @@ footer {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
+    align-items: center;
 }
 
 footer p {
     max-width: var(--width-break);
-    margin: auto;
+    margin: 10px;
 }
